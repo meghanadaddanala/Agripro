@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agriculture</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../static/css/homev1.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-body-tertiary text-bg-light p-3">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">AGRIPRO</a>
+      </div>
+    </nav>
+
+    <!-- Carasoule -->
+    <div class="homeImg">
+      <div class="headding">
+        <span>Agripro</span>
+      </div>
+      <img
+        src="https://images.unsplash.com/photo-1620200423727-8127f75d7f53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        alt=""
+      />
+    </div>
+
+    
+    <!-- Cards -->
+    <div class="row">
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1637500980709-6e65a6c2418a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Crop Fertilization Recomender</h5>
+            <p class="card-text">
+              To Forecast the Best Crop for the Best Harvest.
+            </p>
+            <a href="#" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1616565349764-a08e1c000b52?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1935&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Farm Discovery</h5>
+            <p class="card-text">
+              Get your farm discovered and your efforts on produce reach the right market.
+            </p>
+            <a href="{{url_for('crop')}}" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="card" style="width: 18rem">
+          <img
+            src="https://images.unsplash.com/photo-1550989460-0adf9ea622e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Market Place</h5>
+            <p class="card-text">
+              Search for the Best Market for your crop to get the right value without any Middlemen. Connecting the gaps.
+            </p>
+            <a href="../templates/marketplace.html" class="btn btn-primary">View</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"
+  ></script>
+</html>
