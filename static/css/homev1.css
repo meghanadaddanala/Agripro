@@ -1,0 +1,41 @@
+body {
+  background: #e0eafc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cfdef3,
+    #e0eafc
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.homeImg img {
+  /* overflow-y: hidden !important;
+  overflow-x: hidden !important;
+  /* background-color: #f8f8f8; */
+  /* background-image: url("index.png"); */
+  /* background-size: cover; */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat;
+  /* background-position: right; */
+  width: -webkit-fill-available;
+  height: 90vh;
+  z-index: -1;
+}
+.headding {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  font-size: 5rem;
+  color: aliceblue;
+}
+.row {
+  width: 100%;
+  padding: 8% 8%;
+  grid-gap: 10%;
+}
+img.card-img-top {
+  height: 50vh;
+}
